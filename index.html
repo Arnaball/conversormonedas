@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de monedas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/formatStyles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+      
+            <img src="./img/logo_arnabal.png" alt="Logo Arnabal" height="120px">
+          
+       
+    </header>
+    <main>
+       
+        <div id="primeratabla">
+            <h3 id="error"></h3>
+
+            <div id="tabla1">    
+                <form action="#" id="formEntrada">
+               
+                    <div class="formulario">
+                        <label for="cantidadInicial">CANTIDAD A CONVERTIR</label>
+                        <input type="text" id="cantidadInicial" name="cantidadInicial" placeholder="Ejemplo: 300">
+                    </div>
+
+                    <div class="formulario">
+                        <label for="monedaEscogida">ESCOGE UN TIPO DE MONEDA</label>
+                        <select name="monedaEscogida" id="monedaEscogida">
+                            <option value="0">TIPOS</option>
+                            <option value="1">Euros</option>
+                            <option value="2">Libras</option>
+                            <option value="3">Dolares</option>
+                            <option value="4">Dirham</option>
+                        </select>
+                    </div>
+
+                    <div class="formulario">
+                        <input type="submit" value="CONVERTIR MONEDA" id="botonConvertir" >
+                    </div>
+
+                    </form>
+            </div>
+        </div>
+                
+         <div id="segundatabla">
+            <h3 id="infoMoneda"></h3>
+           <div id="tabla2">
+         
+                <p class="monedaDada" id="monedaEuros">La moneda introducida en Euros es: </p>
+                <input type="text" readonly id="calculoEuros">
+                <p class="monedaDada" id="monedaLibras">La moneda introducida en Libras es: </p>
+                <input type="text" readonly id="calculoLibras">
+                <p class="monedaDada" id="monedaDolares">La moneda introducida en Dolares es:</p>
+                <input type="text" readonly id="calculoDolares">
+                <p class="monedaDada" id="monedaDirham">La moneda introducida en Dirhams es: </p>
+                <input type="text" readonly id="calculoDirhams">
+                <input type="submit" value="REINICIAR" id="botonReiniciar">
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Developed by Arnabal</p>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    background-color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+}
+
+input , select {
+    font-family: "Poppins", sans-serif;
+    display: inline;
+    width: 80%;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header   {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -80px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto; 
+    justify-content: center; 
+    gap: 120px; 
+    margin-bottom: 20px; 
+}
+
+#tabla1, #tabla2 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    text-align: center;
+    backdrop-filter: blur(10px); 
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+h3{
+    color: #fd0c49;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 200;
+}
+#botonReiniciar , #botonConvertir{
+ 
+    width: 100px;
+    background-color: #fd0c49;
+    color: #fff;
+    font-weight: 400px;
+    border-radius: 5px ;
+    width: 100%;
+    
+}
+#botonReiniciar{
+    margin-top: 0px;
+}
+#botonConvertir{
+    margin-top: 115px;
+}
+#tabla1 {
+    width: 250px;
+    height: 550px;
+}
+#tabla1 , p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#tabla2 {
+    width: 350px;
+    height: 550px;
+}
+
+footer{
+    text-align: center;
+    margin-left: -80px;
+    margin-top: 40px;
+}
